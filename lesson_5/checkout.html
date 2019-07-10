@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Shopping Cart</title>
+	<title>Checkout</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://kit.fontawesome.com/9c9fbc99b6.js"></script>
@@ -235,55 +235,58 @@
 				</div>
 			</div>
 		</div>
-		<div class="cart_collection container">
-			<table>
-				<tr>
-					<th colspan="2">Product Details</th>
-					<th>unite Price</th>
-					<th>Quantity</th>
-					<th>shipping</th>
-					<th>Subtotal</th>
-					<th>ACTION</th>
-				</tr>
-				<tr>
-					<td><img src="img/cart1.jpg" alt="Dude"></td>
-					<td></td>
-					<td>$150</td>
-					<td></td>
-					<td>FREE</td>
-					<td>$300</td>
-					<td><img src="img/action_table.png" alt="x"></td>
-				</tr>
-				<tr>
-					<td><img src="img/cart2.jpg" alt="dude"></td>
-					<td></td>
-					<td>$150</td>
-					<td></td>
-					<td>FREE</td>
-					<td>$300</td>
-					<td><img src="img/action_table.png" alt="x"></td>
-				</tr>
-				<tr>
-					<td><img src="img/cart3.jpg" alt="dude"></td>
-					<td></td>
-					<td>$150</td>
-					<td></td>
-					<td>FREE</td>
-					<td>$300</td>
-					<td><img src="img/action_table.png" alt="x"></td>
-				</tr>
-			</table>
-		</div>
 		
-		<div class="cart_bottons container">
-			<a class="cart_botton" href="#">cLEAR SHOPPING CART</a>
-			<a class="cart_botton" href="#">cONTINUE sHOPPING</a>
-		</div>
-		
-		<div class="order">
-			<div></div>
-			<div></div>
-			<div></div>
+		<div class="checkout container">
+			<div class="checkout-list">
+				<a href="#" class="checkout-list_heading">01. Shipping Adress</a>
+				<div class="checkout-list__flex">
+					<form class="checkout-list__flex__check">
+						<h2 class="check__heading">Check as a guest or register</h2>
+						<p class="check__text">Register with us for future convenience</p>
+						<br>
+						<input type="radio"> 
+						<label class="check__input-label" for="radio">checkout as guest</label>
+						<br>
+						<input type="radio"> 
+						<label class="check__input-label" for="radio">register</label>
+						<br><br>
+						<h2 class="check__heading">register and save time!</h2>
+						<p class="check__text">Register with us for future convenience</p>
+						<br>
+						<p class="check__text"><i class="fas fa-angle-double-right"></i>Fast and easy checkout</p>
+						<p class="check__text"><i class="fas fa-angle-double-right"></i>Easy access to your order history and status</p>
+						<input class="check__button" type="submit" value="Continue">
+					</form>
+					<form class="checkout-list__flex__log">
+						<h2 class="check__heading">Already registed?</h2>
+						<p class="check__text">Please log in below</p>
+						<h3 class="log__label-input">EMAIL ADDRESS <span class="log__required">*</span></h3>
+						<input class="log__input" type="email" required>
+						<h3 class="log__label-input">PASSWORD <span class="log__required">*</span> </h3>
+						<input class="log__input" type="password" required>
+						<h4 class="log__required log__required__margin">* Required Fileds</h4>
+						<div class="log_buttons">
+							<input class="check__button" type="submit" value="Log in">
+							<a href="#" class="log__link">Forgot Password?</a>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="checkout-list">
+				<a href="#" class="checkout-list_heading">02. BILLING INFORMATION</a>
+			</div>
+			<div class="checkout-list">
+				<a href="#" class="checkout-list_heading">03. SHIPPING INFORMATION</a>
+			</div>
+			<div class="checkout-list">
+				<a href="#" class="checkout-list_heading">04. SHIPPING METHOD</a>
+			</div>
+			<div class="checkout-list">
+				<a href="#" class="checkout-list_heading">05. PAYMENT METHOD</a>
+			</div>
+			<div class="checkout-list">
+				<a href="#" class="checkout-list_heading">06. ORDER REVIEW</a>
+			</div>
 		</div>
 		
 		<div class="clr"></div>

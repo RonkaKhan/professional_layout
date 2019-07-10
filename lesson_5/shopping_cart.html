@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Checkout</title>
+	<title>Shopping Cart</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<script src="https://kit.fontawesome.com/9c9fbc99b6.js"></script>
@@ -217,6 +217,119 @@
 				<li class="menu__list"><a href="#" class="menu__link">Deals</a></li>
 			</ul>
 		</nav>
+		<div class="web_reference">
+			<div class="container">
+				<div class="reference__flex">
+					<h1>New Arrivals</h1>
+					<ul class="web_reference__list">
+						<li class="web_ref">
+							<a href="#" class="ref">Home&nbsp;&nbsp;/&nbsp;</a>
+						</li>
+						<li class="web_ref">
+							<a href="#" class="ref">&nbsp;Men&nbsp;&nbsp;/ &nbsp;</a>
+						</li>
+						<li class="web_ref">
+							<a href="#" class="local_ref">&nbsp;New Arrivals</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="cart_collection container">
+			<table class="table-cart">
+				<thead>
+					<tr>
+						<th colspan="2" class="table__heading">Product Details</th>
+						<th>unite Price</th>
+						<th>Quantity</th>
+						<th>shipping</th>
+						<th>Subtotal</th>
+						<th>ACTION</th>
+					</tr>
+				</thead>
+				<tr>
+					<td class="cart-collection__img"><img src="img/cart1.jpg" alt="Dude"></td>
+					<td class="cart-collection__desc">
+						<div class="cart-collection__product-details">
+							<h2>Mango  People  T-shirt</h2>
+							<h5>Color: <span class="value"> Red</span></h5>
+							<h5>Size: <span class="value"> XL</span></h5>
+						</div>
+					</td>
+					<td>$150</td>
+					<td></td>
+					<td>FREE</td>
+					<td>$300</td>
+					<td><img src="img/action_table.png" alt="x"></td>
+				</tr>
+				<tr>
+					<td class="cart-collection__img"><img src="img/cart2.jpg" alt="dude"></td>
+					<td class="cart-collection__desc"></td>
+					<td>$150</td>
+					<td></td>
+					<td>FREE</td>
+					<td>$300</td>
+					<td><img src="img/action_table.png" alt="x"></td>
+				</tr>
+				<tr>
+					<td class="cart-collection__img"><img src="img/cart3.jpg" alt="dude"></td>
+					<td class="cart-collection__desc"></td>
+					<td class="cart-collection__price">$150</td>
+					<td class="cart-collection__quantity">
+						<div class="cart-collection__quantity__input"><input type="text" placeholder="2"></div>
+					</td>
+					<td class="cart-collection__shipping">FREE</td>
+					<td class="cart-collection__subtotal">$300</td>
+					<td class="cart-collection__action"><img src="img/action_table.png" alt="x"></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="cart_bottons container">
+			<a class="cart_botton" href="#">cLEAR SHOPPING CART</a>
+			<a class="cart_botton" href="#">cONTINUE sHOPPING</a>
+		</div>
+		
+		<div class="order container">
+			<div class="order__adress">
+				<h2 class="order__adress__heading">Shipping Adress</h2>
+				<select class="location">
+					<option>Bangladesh</option>
+					<option>Russia</option>
+					<option>Australia</option>
+				</select>
+				<input type="text" class="order__adress__state" placeholder="State">
+				<input type="text" class="order__adress__state" placeholder="Postcode / Zip">
+				<div class="order__adress__botton">
+					<a href="#" class="order__adress__botton__link">get a quote</a>
+				</div>
+			</div>
+			<div class="order__discount">
+				<h2 class="order__adress__heading">Shipping Adress</h2>
+				<p class="order__adress__text">Enter your coupon code if you have one</p>
+				<input type="text" class="order__adress__state" placeholder="State">
+				<div class="order__adress__botton">
+					<a href="#" class="order__adress__botton__link">Apply coupon</a>
+				</div>
+			</div>
+			<div class="order__total">
+				<div class="order__total__price">
+					<div class="order__total__price__bill">
+						<div class="order__total__price__mini">
+							<span class="order__total__price__mini__text">Sub total</span>
+							<span class="order__total__price__mini__numbers">$900  </span>
+						</div>
+						<div class="order__total__price__grand">
+							<span class="order__total__price__grand__text">GRAND TOTAL</span>
+							<span class="order__total__price__grand__numbers">$900</span>
+						</div>
+					</div>
+					<div class="order__total__price__botton">
+						<a class="order__total__price__botton__link" href="#">proceed to checkout</a>
+					</div>
+				</div>
+			</div>
+		</div>
 		
 		<div class="clr"></div>
 	</div>
